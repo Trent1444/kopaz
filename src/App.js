@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import CreateTask from "./components/CreateTask";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="creating-new-task">
+        <form id="task-form">
+          <input
+            id="task-title"
+            type="text"
+            placeholder="Enter Task Title"
+          ></input>
+          <input
+            id="task-description"
+            type="text"
+            placeholder="Enter Your Custom Description"
+          ></input>
+        </form>
+      </div>
     </div>
   );
 }
