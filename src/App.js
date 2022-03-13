@@ -4,16 +4,15 @@ function App() {
   return (
     <div className="App">
       <div id="creating-new-task">
+        <navbar>
+          <button id="menu-button">≡</button>
+          <h1 id="title">Kopaz Helping You Achieve More</h1>
+        </navbar>
         <form id="task-form">
           <input
             id="task-title"
             type="text"
             placeholder="Enter Task Title"
-          ></input>
-          <input
-            id="task-description"
-            type="text"
-            placeholder="Enter Your Custom Description"
           ></input>
         </form>
       </div>

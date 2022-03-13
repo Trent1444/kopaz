@@ -8,3 +8,23 @@
   flex-wrap: wrap;
   width: 100px;
 }
+
+navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  gap: 300px;
+}
+
+#menu-button {
+  font-size: 8rem;
+  margin: 0;
+  padding: 0%;
+  background-color: transparent;
+  border: transparent;
+}
+
+#menu-button:hover {
+  color: red;
+}
+#title {
+}
