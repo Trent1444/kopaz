@@ -28,3 +28,23 @@ navbar {
 }
 #title {
 }
+
+#task-form {
+  display: flex;
+  justify-content: center;
+}
+
+#task-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* This is the transparent text for the Enter Task form  */
+
+::placeholder {
+  opacity: 80%;
+}
+
+::placeholder :hover {
+  color: red;
+}
